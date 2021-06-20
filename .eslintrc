@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules":{
+    "camelcase": 1,
+    "comma-dangle": 2,
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"]
+  }
+}

@@ -1,0 +1,26 @@
+@import 'variables';
+header {
+  background-color: red;
+}
+.header__inner {
+  height: 60px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow:  0 0 2px 2px #000;
+  background-image: url('../../images/image1.jpeg');
+  @media(max-width: 960px) {
+    border-radius: 60%;
+  }
+}
+body {
+  font-size: 2rem;
+  font-family: Arial;
+  background-color: #a1a1fa;
+  @media(max-width: 960px) {
+    font-size: 1rem;
+  }
+}
+
+.main {
+  color: $white;
+}
